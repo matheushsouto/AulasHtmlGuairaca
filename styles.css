@@ -1,13 +1,36 @@
 body {
-    background-color: #808080;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
 }
 
-.title {
-    font-size: 34px;
-    font-weight: bold;
-    color: green;
+.header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
-#text-primary {
-    color: orange;
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 38px;
+}
+
+.main-content {
+  padding: 20px;
+  text-align: justify;
+}
+
+.footer {
+  padding: 20px;
+}
+
+.footer p {
+  opacity: 0.8;
 }

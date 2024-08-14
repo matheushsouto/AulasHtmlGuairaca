@@ -2,32 +2,33 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Aula - Introducao ao CSS</title>
-
-        <style>
-            h2 {
-                color: red;
-            }
-            span {
-                font-weight: bold;
-            }
-        </style>
-        <!-- Vinculando arquivo externo .css -->
+        <title>Página de Teste</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <!-- Exemplo de CSS Inline -->
-        <h1 style="color: blue;">Titulo em azul</h1>
-        <p style="font-size: 16px;">Este é um paragrafo 
-            com fonte de 16px</p>
-
-        <!-- Exemplo de CSS Embed-->
-        <h2>Titulo em vermelho</h2>
-        <h2>Outro H2</h2>
-        <span>Span em negrito</span>
-        
-        <!-- Exemplo de CSS com arquivo externo -->
-        <h4 class="title">Titulo com CSS Externo</h4>
-        <p id="text-primary">Texto primario</p>
-    </body>
+        <header class="header">
+            <h1>Bem vindo à Uniguairaca</h1>
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <main class="main-content">
+            <section class="intro">
+                <h2>Introdução</h2>
+                <p>Esta é uma página de teste
+                    para demonstrar o uso de
+                    propriedades CSS comuns.
+                </p>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2024 Pagina de Teste.
+                Todos os direitos reservados.
+            </p>
+        </footer>
+    </body> 
 </html>
